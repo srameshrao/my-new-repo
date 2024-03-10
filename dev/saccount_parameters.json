@@ -2,7 +2,7 @@
         "storageAccountName": {
             "type": "string",
             "metadata": {
-                "description": "Name of the Azure Storage Account."
+                "description": "test-storage-account"
             }
         },
         "location": {
@@ -23,7 +23,7 @@
                 "Premium_LRS"
             ],
             "metadata": {
-                "description": "Type of the storage account."
+                "description": "Standard_LRS"
             }
         }
     }
