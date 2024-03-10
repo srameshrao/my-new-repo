@@ -16,7 +16,7 @@ stages :
                   azureResourceManagerConnection: 'service_connection'
                   subscriptionId: '123456'
                   action: 'Create Or Update Resource Group'
-                  resourceGroupName: 'test'
+                  resourceGroupName: 'dev'
                   location: 'westeurope'
                   templateLocation: 'Linked artifact'
                   csmFile: '$(System.DefaultWorkingDirectory)/vnet.json'
