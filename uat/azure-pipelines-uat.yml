@@ -13,7 +13,7 @@ stages :
               - task: AzureResourceManagerTemplateDeployment@3
                 inputs:
                   deploymentScope: 'Resource Group'
-                  azureResourceManagerConnection: 'service_connection'
+                  azureResourceManagerConnection: 'service_conn_uat'
                   subscriptionId: '4287af3b-f106-4eae-9bee-6c41866cd5e1'
                   action: 'Create Or Update Resource Group'
                   resourceGroupName: 'sa-uat'
