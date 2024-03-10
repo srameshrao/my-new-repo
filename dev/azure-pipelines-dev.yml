@@ -1,7 +1,7 @@
 variables:
 - group: dev
 
-name: DEVPipeline 
+name: $(pipelinename) 
 
 stages :        
   - stage: arm_template_deploy
