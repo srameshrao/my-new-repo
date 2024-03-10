@@ -16,7 +16,7 @@ stages :
                   azureResourceManagerConnection: 'service_connection'
                   subscriptionId: '4287af3b-f106-4eae-9bee-6c41866cd5e1'
                   action: 'Create Or Update Resource Group'
-                  resourceGroupName: 'dev'
+                  resourceGroupName: 'sa-dev'
                   location: 'westeurope'
                   templateLocation: 'Linked artifact'
                   csmFile: '$(System.DefaultWorkingDirectory)/arm_storageaccount_dev.json'
