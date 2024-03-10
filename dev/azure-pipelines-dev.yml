@@ -20,4 +20,4 @@ stages :
                   location: 'westeurope'
                   templateLocation: 'Linked artifact'
                   csmFile: '$(System.DefaultWorkingDirectory)/arm_storageaccount_dev.json'
-                  csmParametersFile: '$(System.DefaultWorkingDirectory)/vnet.parameters.json'
+                  csmParametersFile: '$(System.DefaultWorkingDirectory)/saccount_parameters_dev.json'
