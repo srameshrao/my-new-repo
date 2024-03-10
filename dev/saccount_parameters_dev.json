@@ -2,7 +2,7 @@
         "storageAccountName": {
             "type": "string",
             "metadata": {
-                "description": "test-storage-account"
+                "description": "dev-storage-account"
             }
         },
         "location": {
