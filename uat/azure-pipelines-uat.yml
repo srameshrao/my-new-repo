@@ -1,7 +1,7 @@
 variables:
 - group: uat
 
-name: $(variable_group_param) 
+name: UATPipeline 
 
 stages :        
   - stage: arm_template_deploy
