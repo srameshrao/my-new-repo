@@ -40,7 +40,13 @@
                 "name": "[parameters('accountType')]"
             },
             "kind": "StorageV2",
-            "properties": {}
+            "properties": {
+                "staticWebsite": {
+                    "enabled": true,
+                    "indexDocument": "index.html",
+                    "errorDocument404Path": "404.html"
+                }
+            }
         }
     ],
     "outputs": {
